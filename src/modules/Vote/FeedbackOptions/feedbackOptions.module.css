@@ -1,0 +1,17 @@
+.block {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 40px;
+}
+.Title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.divWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,47 @@
+.btn {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: rgb(231, 20, 20);
+  margin: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(224, 26, 26);
+  border-radius: 5px;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:focus {
+  color: #121214;
+}
+
+.btn:hover {
+  border-color: rgb(22, 101, 219);
+  color: rgb(17, 103, 231);
+  fill: rgb(9, 91, 214);
+  box-shadow: rgb(30, 104, 215) 0px 5px 15px;
+}
+
+.btn:active {
+  border-color: rgb(14, 105, 242);
+  color: rgb(17, 99, 221);
+  fill: rgb(24, 96, 203);
+}

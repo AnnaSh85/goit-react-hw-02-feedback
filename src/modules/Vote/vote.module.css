@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: aquamarine;
+  padding: 20px;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 40px;
+}
+
+.block.title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
